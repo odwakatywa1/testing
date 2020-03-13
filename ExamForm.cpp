@@ -18,7 +18,14 @@ ExamForm::ExamForm(int sID, string d, int examID, string sName, string fName, st
 }
 ExamForm::ExamForm()
 {
-
+	studentID = 0;
+	date = "";
+	examFormID = 0;
+	studentName = "";
+	fatherName = "";
+	address = "";
+	stream = "";
+	degree = "";
 }
 
 void ExamForm::display()
